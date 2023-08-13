@@ -76,7 +76,7 @@ def on_key_event(event):
             text = clipboard_content
             speaker = select_speaker(language)
             # Create TTS Voice Note
-            command = f'edge-tts --voice "{speaker}" --text "{text}" --write-media output.mp3'  # 将 AI 生成的文本传递给 edge-tts 命令
+            command = f'edge-tts --voice "{speaker}" --text "{text}" --write-media output.mp3'
             subprocess.run(command, shell=True)
 
             pygame.mixer.init()

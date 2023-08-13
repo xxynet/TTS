@@ -1,6 +1,10 @@
 # TTS
 A helpful TTS tool for language learning
 
+![](test.png)
+
+Support English, Chinese, Japanese and Korean
+
 # Get started
 
 ### Step 1 - Download Python
@@ -16,6 +20,8 @@ Run "requirements.bat" to install dependencies.
 ### Step 3 - Customize your settings
 
 Open "config.ini", in this file you can set speakers for different languages, and you can also configure whether notifications pop up after the program is triggered.
+
+![](notification.png)
 
 ### Step 4 - Run the main program
 
