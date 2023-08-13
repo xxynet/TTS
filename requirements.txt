@@ -1,0 +1,5 @@
+keyboard==0.13.5
+langdetect==1.0.9
+plyer==2.1.0
+pygame==2.5.0
+pyperclip==1.8.2
